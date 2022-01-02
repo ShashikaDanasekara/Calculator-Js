@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Mukta', sans-serif;
+}
+body{
+    background: linear-gradient(to right,#916BBF ,#3D2C8D);
+}
+.header{
+    text-align: center;
+    margin-top: 20px;
+}
+.subheader{
+    margin-top: 1px;
+    letter-spacing: 0.3em;
+}
+.container{
+    width: 98%;
+    height: 550px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 50px;
+    margin: 40px auto;
+    margin-left: 1%;
+    position:absolute;
+}
+.calculator{
+    width: 320px;
+    height: 520px;
+    background: rgba(255,255,255,0.4);
+    border-radius: 5px;
+    margin: 0 auto;
+    top: 15px;
+    position:relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.result{
+    height: 110px;
+}
+.keyboard{
+    height:400px;
+}
+.history,.output{
+    text-align: right;
+}
+.history{
+    height:20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: rgba(0,0,0,0.5)
+}
+.output{
+    height: 60px;
+    padding-top: 12px;
+    margin: 10px 20px;
+    font-size: 35px;
+}
+.operator,.number,.empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    background: rgba(255,255,255,0.4);
+    font-weight:bold;
+    font-size:15px;
+}
+.number,.empty{
+    background: rgba(255,255,255,0);
+}
+.number{
+    box-shadow: 1px 2px 2px 1px rgba(255,255,255,0.2);
+}
+.operator,.number{
+    cursor:pointer;
+}
+.operator:active,.number:active{
+    font-size: 13px;
+}
+button:nth-child(4n){
+    font-size:20px;
+    background-color: #ffa500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
